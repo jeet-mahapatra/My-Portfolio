@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JEET PORTFOLIO</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/816f8ad854.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div id="header">
+      <div class="container">
+        <nav >
+          <img src="images/Jeetlogo.png" class="logo" />
+          <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i
+              class="icon fa-regular fa-circle-xmark"
+              onclick="closemenu()"
+            ></i>
+          </ul>
+          <i
+            class="icon fa-solid fa-bars"
+            onclick="openmenu()"
+            style="position: fixed"
+          ></i>
+        </nav>
+        <div class="header-text">
+          <p>Web Developer</p>
+          <h1>
+            <i
+              >Hi, I'm <span>Jeet Mahapatra</span> <br />From
+              WestBengal,India</i
+            >
+          </h1>
+        </div>
+      </div>
+    </div>
+    <!-- ------------------------about---------------------- -->
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="images/jeet_proffesional.jpg" class="about-img" />
+          </div>
+          <div class="about-col-2">
+            <h1 class="sub-title">About Me</h1>
+            <p>
+              Hello! I'm Jeet , a B.Tech student in Computer Science & Engineering, enthusiastic
+              about design and exploring new possibilities. A smart learner with
+              efficient work capabilities, I am actively seeking opportunities
+              for internships or employment. Dive into my portfolio to discover
+              more about my skills and experiences. I'm excited about the
+              prospect of contributing my passion and expertise to your team.
+            </p>
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="opentab('skills')">
+                Skills
+              </p>
+              <p class="tab-links" onclick="opentab('education')">Education</p>
+              <p class="tab-links" onclick="opentab('achivements')">
+                Achivements
+              </p>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li>
+                  <span><b> WEB DEVELOPMENT</b></span> <br />-Expertise in HTML,
+                  CSS, JS, Bootstrap
+                </li>
+                <li>
+                  <span> <b>DSA</b> </span><br />
+                  -Array,Linked List,Stack,Queue,Tree,Graph
+                </li>
+                <li>
+                  <span> <b>VIDEO EDITTING</b> </span><br />
+                  -Edit Videos In YouTube
+                </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="education">
+              <ul>
+                <li>
+                  <span><b> 2022 - 2026 (B.TECH)</b></span> <br />- From SurTech (UNDER MAKAUT UNIVERSITY),Dumdum,Kolkata <br>-Computer Science & Engineering
+                  
+                </li>
+                <li>
+                  <span> <b>HS</b> </span><br />
+                  -From WestBengal Council Of Higher Secondary Education <br>
+                  -Passed With 86% <br>
+                  -Science (PCM)
+                </li>
+                <li>
+                  <span> <b>MADHYAMIK</b> </span><br />
+                  -From WestBengal Board Of Secondary Education <br>
+                  -Passed With 85% <br>
+                  -Science
+                  
+                </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="achivements">
+              <ul>
+                <li>
+                  <span><b>SCHOLARSHIPS</b></span> <br />-Selected For
+                  Scholarship Programme in My B.TECH Journey.
+                </li>
+                <li>
+                  <span><b>SPORTSMAN</b> </span><br />
+                  -Got Selected For University Level Cricket Competetion
+                </li>
+                <li>
+                  <span> <b>SINGING </b> </span><br />
+                  -Awarded in College Level Singing Competetion
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- --------------------------------services----------------------- -->
+    <div id="services">
+      <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+          <div>
+            <i class="fa-solid fa-code"></i>
+            <h2>Web Designer</h2>
+            <p>
+              I have compleated 5 projects in Web Design. There is 2games 1
+              Calculator and 2 portfolio Website , this website is one of them.
+            </p>
+            <!-- <a href="#">Learn More</a> -->
+          </div>
+          <div>
+            <i class="fa-solid fa-film"></i>
+            <h2>Content Creator</h2>
+            <p>
+              I am Working with 2 Youtube Channel and helping them to create
+              most efficient content for the audiences.
+            </p>
+            <!-- <a href="#">Learn More</a> -->
+          </div>
+          <div>
+            <i class="fa-solid fa-video"></i>
+            <h2>Video Edittor</h2>
+            <p>
+              I am very much passionate about video editting. I have already
+              edit 60+ videos for Youtube and other social media platform.
+            </p>
+            <!-- <a href="#">Learn More</a> -->
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ------------------------------portfolio------------ -->
+
+    <div id="portfolio">
+      <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+          <div class="work">
+            <img src="images/work-0.jpg" />
+            <div class="layer">
+              <h3>Logo Design Model</h3>
+              <p>
+                Here You Can See The Logo Design Model, Which I Have Created For
+                The Youtube Channels.
+              </p>
+              <!-- <a href="#"><i class="fa-solid fa-link"></i></a> -->
+            </div>
+          </div>
+          <div class="work">
+            <img src="images/work-2.png" />
+            <div class="layer">
+              <h3>My Games</h3>
+              <p>Here You Can See The Games & The Spotify Clone Which I Have Made Yet.</p>
+              <a href="https://jeet-mahapatra.github.io/Rock-Paper-Scissors-Game/"><i class="fa-solid fa-link"></i></a>
+              <a href="https://jeet-mahapatra.github.io/Tic-Tac-Toe-Game/"><i class="fa-solid fa-link"></i></a>                <a href="https://jeet-mahapatra.github.io/Spotify-sing_with_jeet-/"><i class="fa-solid fa-music"></i></a>              <a href="https://jeet-mahapatra.github.io/Spotify-sing_with_jeet-/"><i class="fa-solid fa-music"></i></a>
+
+
+            </div>
+          </div>
+          <div class="work">
+            <img src="images/work-3.png" />
+            <div class="layer">
+              <h3>Explore YouTube Channel</h3>
+              <p>
+                Here You Can See The Videos Which I Have Made For My YouTube
+                Audiences.
+              </p>
+              <a href="https://www.youtube.com/@sahajparasona"><i class="fa-solid fa-link"></i></a>
+            </div>
+          </div>
+        </div>
+        <a href="#contact" class="btn">See More</a>
+      </div>
+    </div>
+
+    <!-- ---------------------------contact--------------------- -->
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="sub-title">Contact Me</h1>
+            <p>
+              <i class="fa-regular fa-envelope"></i>jeetmahapatra2004@gmail.com
+            </p>
+            <div class="social-icons">
+              
+              <a href="https://www.instagram.com/sahajparasona2?igsh=aDBwdDdyMHRrODly"><i class="fa-brands fa-instagram"></i></a>
+              <a href="https://github.com/jeet-mahapatra"><i class="fa-brands fa-github"></i></a>
+              <a href="https://www.youtube.com/@sahajparasona"
+                ><i class="fa-brands fa-youtube"></i
+              ></a>
+              <a href="https://linkedin.com/in/jeet-mahapatra-b140a5282"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+            <a href="images/Jeet's Resume (1).pdf" download class="btn btn2"
+              >Download My CV in .pdf</a
+            >
+          </div>
+          <div class="contact-right">
+            <form name="submit-to-google-sheet">
+              <input type="text" name="Name" placeholder="Your Name" required />
+              <input
+                type="email"
+                name="Email"
+                placeholder="Your email"
+                required
+              />
+              <textarea
+                name="Message"
+                rows="6"
+                placeholder="Your Message"
+              ></textarea>
+              <button class="submit btn btn2">Submit</button>
+            </form>
+            <span id="msg"></span>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>
+          Copyright © Made With <i class="fa-solid fa-heart"></i> Jeet Mahapatra
+        </p>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
